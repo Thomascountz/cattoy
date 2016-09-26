@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: #cfcfcf;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -21,20 +23,32 @@ button {
   cursor: pointer;
   margin: 0 10px;
   width: 100px;
+  border-radius: 2px;
+  border: none;
+}
+
+button:focus {
+  outline:none;
 }
 
 #div-grid {
-  margin: 30px;
+  margin: 30px 0;
+  padding: 0;
+  border: 0;
   text-align: center;
 }
 
 .div-wrapper {
   display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+
 .div-node {
   display: inline-block;
-  background-color: blue;
   margin: 1px;
+  padding: 0;
   height: 10px;
   width: 10px;
 }
